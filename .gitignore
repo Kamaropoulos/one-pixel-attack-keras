@@ -100,10 +100,6 @@ ENV/
 # mypy
 .mypy_cache/
 
-*.h5
-
-networks/models
-!networks/models/sigmanet.h5
 data/*.jpg
 
 /.idea/
