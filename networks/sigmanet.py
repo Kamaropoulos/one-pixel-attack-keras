@@ -29,6 +29,6 @@ class SigmaNet:
         return self._model.predict(processed)
 
     def predict_one(self, img):
-        confidence = self.predict(img)[0]
-        predicted_class = np.argmax(confidence)
-        return class_names[predicted_class]
+        return self.predict(img)[0]
+        # predicted_class = np.argmax(confidence)
+        # return class_names[predicted_class]
